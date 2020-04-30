@@ -1,0 +1,12 @@
+Source: ros-verystable-can-msgs
+Section: misc
+Priority: optional
+Maintainer: Mathias Lüdtke <mathias.luedtke@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-rosidl-default-generators, ros-verystable-std-msgs, ros-verystable-ros-workspace, ros-verystable-rmw-connext-cpp, ros-verystable-rmw-fastrtps-cpp, ros-verystable-rmw-implementation, ros-verystable-rmw-opensplice-cpp, ros-verystable-rosidl-typesupport-connext-c, ros-verystable-rosidl-typesupport-connext-cpp, ros-verystable-rosidl-typesupport-opensplice-c, ros-verystable-rosidl-typesupport-opensplice-cpp
+Homepage: http://wiki.ros.org/can_msgs
+Standards-Version: 3.9.2
+
+Package: ros-verystable-can-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-rosidl-default-runtime, ros-verystable-std-msgs, ros-verystable-ros-workspace
+Description: CAN related message types.
