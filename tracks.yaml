@@ -166,4 +166,5 @@ tracks:
     ros_distro: verystable
     vcs_type: git
     vcs_uri: https://github.com/ros-industrial/ros_canopen.git
-    version: :{auto}
+    version: 2.0.0
+    version_saved: :{auto}
