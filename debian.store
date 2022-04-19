@@ -1,1 +1,1 @@
-{"base": "f55eb418", "parent": "debian/rolling/can_msgs", "previous": "7c1473ff", "trim": "", "trimbase": ""}
+{"base": "e5823659", "parent": "debian/humble/can_msgs", "previous": "8a2e9282", "trim": "", "trimbase": ""}
